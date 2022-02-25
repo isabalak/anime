@@ -1,0 +1,27 @@
+@media(max-width:768px){
+    .mobile-btn{
+        display: flex;
+        z-index: 2;
+    }
+    .nav{
+        position: fixed;
+        row-gap: 30px;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        background: linear-gradient(to right, #3ca55c, #b5ac49);
+        transition: .5s;
+    }
+    .show-nav{
+        right: 0;
+    }
+    .nav_item{
+        font-size: 40px;
+    }
+}
